@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+}
+h3{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+a{
+    text-decoration: none;
+}
+@media(max-width:500px){
+    h1, h2, h3{
+        font-size: 17px;
+    }
+    body{
+        font-size: 17px;
+    }
+}
